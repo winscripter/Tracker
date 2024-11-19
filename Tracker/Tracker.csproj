@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AssemblyTitle>Tracker</AssemblyTitle>
+    <Company>winscripter</Company>
+    <AssemblyVersion>1.0.0.6344</AssemblyVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\VS2017\DarkTheme_16x.png" />
+    <None Remove="Images\VS2017\Save_16x.png" />
+    <None Remove="Images\VS2017\WordWrap_16x.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AvalonEdit" Version="6.3.0.90" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\VS2017\DarkTheme_16x.png" />
+    <Resource Include="Images\VS2017\Save_16x.png" />
+    <Resource Include="Images\VS2017\WordWrap_16x.png" />
+  </ItemGroup>
+
+</Project>

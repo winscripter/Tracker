@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+    <properties>
+        <name>Light Theme</name>
+        <description>Default light theme out of the box. Recommended to use during day time.</description>
+        <publisher>winscripter</publisher>
+        <predefined>true</predefined>
+    </properties>
+    <model>
+        <!-- Paragraph -->
+        <ParagraphBG>#fefefe</ParagraphBG>
+        <ParagraphFG>#181818</ParagraphFG>
+        <ParagraphHoverBG>#fefefe</ParagraphHoverBG>
+        <ParagraphHoverFG>#181818</ParagraphHoverFG>
+        <ParagraphActiveBG>#fefefe</ParagraphActiveBG>
+        <ParagraphActiveFG>#181818</ParagraphActiveFG>
+
+        <!-- Hyperlink -->
+        <HyperlinkBG>#fefefe</HyperlinkBG>
+        <HyperlinkFG>#3452eb</HyperlinkFG>
+        <HyperlinkHoverBG>#fefefe</HyperlinkHoverBG>
+        <HyperlinkHoverFG>#0f0be0</HyperlinkHoverFG>
+        <HyperlinkActiveBG>#fefefe</HyperlinkActiveBG>
+        <HyperlinkActiveFG>#3452eb</HyperlinkActiveFG>
+
+        <!-- Default -->
+        <DefaultBG>#fefefe</DefaultBG>
+        <DefaultFG>#181818</DefaultFG>
+        
+        <!-- Common Pane -->
+        <CommonPaneBG>#fefefe</CommonPaneBG>
+        <CommonPaneFG>#181818</CommonPaneFG>
+        
+        <!-- File Object -->
+        <FileObjectBorder>#181818</FileObjectBorder>
+        <FileObjectBG>#fefefe</FileObjectBG>
+        <FileObjectFG>#181818</FileObjectFG>
+        <FileObjectHoverBG>#ececec</FileObjectHoverBG>
+        <FileObjectHoverFG>#181818</FileObjectHoverFG>
+
+        <!-- Directory Object -->
+        <DirObjectBorder>#181818</DirObjectBorder>
+        <DirObjectBG>#fefefe</DirObjectBG>
+        <DirObjectFG>#181818</DirObjectFG>
+        <DirObjectHoverBG>#ececec</DirObjectHoverBG>
+        <DirObjectHoverFG>#181818</DirObjectHoverFG>
+</model>
+</theme>

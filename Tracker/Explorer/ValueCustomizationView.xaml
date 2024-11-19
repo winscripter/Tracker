@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="Tracker.Explorer.ValueCustomizationView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Tracker.Explorer"
+             mc:Ignorable="d" 
+             Background="{DynamicResource CommonPaneBG}"
+             MinHeight="250" MinWidth="150">
+    <Grid Background="{DynamicResource CommonPaneBG}">
+        <StackPanel>
+            <TextBlock Style="{DynamicResource ActsLikeHyperlink}"
+                       Text="Scale Up"
+                       MouseLeftButtonDown="TextBlock_MouseLeftButtonDown" />
+            <TextBlock Style="{DynamicResource ActsLikeHyperlink}"
+                       Text="Scale Down"
+                       MouseLeftButtonDown="TextBlock_MouseLeftButtonDown2" />
+            <TextBlock Text="{Binding DisplayScale}" />
+            <Separator />
+            
+            <Viewbox x:Name="vb" Height="40" Width="140">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Completed:" Margin="0 0 5 0" FontWeight="Bold" FontSize="16" />
+                        <TextBox Width="40" Text="0" x:Name="completedBox" />
+                        <TextBlock Text="%" Margin="0 0 5 0" FontWeight="Bold" FontSize="16" />
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Name:" Margin="0 0 5 0" FontWeight="Bold" FontSize="16" />
+                        <TextBox Width="95" Text="0" x:Name="name" />
+                    </StackPanel>
+                </StackPanel>
+            </Viewbox>
+        </StackPanel>
+    </Grid>
+</UserControl>

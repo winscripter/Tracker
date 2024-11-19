@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+    <properties>
+        <name>Dark Theme</name>
+        <description>If you respect your retinas while working at 3AM, this is the theme for you.</description>
+        <publisher>winscripter</publisher>
+        <predefined>true</predefined>
+    </properties>
+    <model>
+        <!-- Paragraph -->
+        <ParagraphBG>#181818</ParagraphBG>
+        <ParagraphFG>#fefefe</ParagraphFG>
+        <ParagraphHoverBG>#181818</ParagraphHoverBG>
+        <ParagraphHoverFG>#fefefe</ParagraphHoverFG>
+        <ParagraphActiveBG>#181818</ParagraphActiveBG>
+        <ParagraphActiveFG>#fefefe</ParagraphActiveFG>
+
+        <!-- Hyperlink -->
+        <HyperlinkBG>#181818</HyperlinkBG>
+        <HyperlinkFG>#3452eb</HyperlinkFG>
+        <HyperlinkHoverBG>#181818</HyperlinkHoverBG>
+        <HyperlinkHoverFG>#0f0be0</HyperlinkHoverFG>
+        <HyperlinkActiveBG>#181818</HyperlinkActiveBG>
+        <HyperlinkActiveFG>#3452eb</HyperlinkActiveFG>
+
+        <!-- Default -->
+        <DefaultBG>#181818</DefaultBG>
+        <DefaultFG>#fefefe</DefaultFG>
+        
+        <!-- Common Pane -->
+        <CommonPaneBG>#181818</CommonPaneBG>
+        <CommonPaneFG>#fefefe</CommonPaneFG>
+        
+        <!-- File Object -->
+        <FileObjectBorder>#fefefe</FileObjectBorder>
+        <FileObjectBG>#181818</FileObjectBG>
+        <FileObjectFG>#fefefe</FileObjectFG>
+        <FileObjectHoverBG>#383838</FileObjectHoverBG>
+        <FileObjectHoverFG>#fefefe</FileObjectHoverFG>
+
+        <!-- Directory Object -->
+        <DirObjectBorder>#fefefe</DirObjectBorder>
+        <DirObjectBG>#181818</DirObjectBG>
+        <DirObjectFG>#fefefe</DirObjectFG>
+        <DirObjectHoverBG>#383838</DirObjectHoverBG>
+        <DirObjectHoverFG>#fefefe</DirObjectHoverFG>
+</model>
+</theme>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AppMain\SplashScreenWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\ColorCustomizationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\CustomizeMemberWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\DirectoryControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\EnterNameDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\ExplorerControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\FileControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\FileListControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\NoProjectControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\SetDocumentPropertiesDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TextFileManager.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TrackingTargetExplorer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TrackingTargetMemberControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TrackingTargetPreview.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TrackingTargetTableControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\TrackingTargetTableListControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Explorer\ValueCustomizationView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AppMain\SplashScreenWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\ColorCustomizationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\CustomizeMemberWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\DirectoryControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\EnterNameDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\ExplorerControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\FileControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\FileListControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\NoProjectControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\SetDocumentPropertiesDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TextFileManager.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TrackingTargetExplorer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TrackingTargetMemberControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TrackingTargetPreview.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TrackingTargetTableControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\TrackingTargetTableListControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Explorer\ValueCustomizationView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\Default.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Themes\WPF.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

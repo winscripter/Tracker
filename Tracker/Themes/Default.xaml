@@ -1,0 +1,41 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Paragraph -->
+    <SolidColorBrush x:Key="ParagraphBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="ParagraphFG" Color="#181818"/>
+    <SolidColorBrush x:Key="ParagraphHoverBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="ParagraphHoverFG" Color="#181818"/>
+    <SolidColorBrush x:Key="ParagraphActiveBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="ParagraphActiveFG" Color="#181818"/>
+
+    <!-- Hyperlink -->
+    <SolidColorBrush x:Key="HyperlinkBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="HyperlinkFG" Color="#3452eb"/>
+    <SolidColorBrush x:Key="HyperlinkHoverBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="HyperlinkHoverFG" Color="#0f0be0"/>
+    <SolidColorBrush x:Key="HyperlinkActiveBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="HyperlinkActiveFG" Color="#3452eb"/>
+
+    <!-- Default -->
+    <SolidColorBrush x:Key="DefaultBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="DefaultFG" Color="#181818"/>
+
+    <!-- Common Pane -->
+    <SolidColorBrush x:Key="CommonPaneBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="CommonPaneFG" Color="#181818"/>
+
+    <!-- File Object -->
+    <SolidColorBrush x:Key="FileObjectBorder" Color="#181818"/>
+    <SolidColorBrush x:Key="FileObjectBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="FileObjectFG" Color="#181818"/>
+    <SolidColorBrush x:Key="FileObjectHoverBG" Color="#ececec"/>
+    <SolidColorBrush x:Key="FileObjectHoverFG" Color="#181818"/>
+
+    <!-- Directory Object -->
+    <SolidColorBrush x:Key="DirObjectBorder" Color="#181818"/>
+    <SolidColorBrush x:Key="DirObjectBG" Color="#fefefe"/>
+    <SolidColorBrush x:Key="DirObjectFG" Color="#181818"/>
+    <SolidColorBrush x:Key="DirObjectHoverBG" Color="#ececec"/>
+    <SolidColorBrush x:Key="DirObjectHoverFG" Color="#181818"/>
+</ResourceDictionary>
+    

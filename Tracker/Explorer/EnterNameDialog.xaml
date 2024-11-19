@@ -1,0 +1,34 @@
+﻿<Window x:Class="Tracker.Explorer.EnterNameDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tracker.Explorer"
+        mc:Ignorable="d"
+        Title="Enter name"
+        Height="170" Width="300"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <StackPanel Background="{DynamicResource CommonPaneBG}">
+        <TextBox Background="Transparent"
+                 Foreground="{DynamicResource CommonPaneFG}"
+                 BorderThickness="0"
+                 Text="Enter name for this object"
+                 IsReadOnly="True"
+                 TextWrapping="Wrap"
+                 TextAlignment="Center"
+                 VerticalContentAlignment="Center"
+                 HorizontalContentAlignment="Center"
+                 Height="40"
+                 FontSize="24" />
+        <TextBox Background="{DynamicResource CommonPaneBG}"
+                 Opacity="0.7"
+                 Foreground="{DynamicResource CommonPaneFG}"
+                 x:Name="nameField"
+                 Width="200"
+                 Height="30"
+                 Margin="20 15 0 20"
+                 VerticalAlignment="Center" />
+
+        <TextBlock Text="Continue" HorizontalAlignment="Center" Style="{DynamicResource ActsLikeHyperlink}" FontSize="20" MouseLeftButtonDown="OnContinue" />
+    </StackPanel>
+</Window>

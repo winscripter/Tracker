@@ -1,0 +1,58 @@
+﻿<Window x:Class="Tracker.Explorer.TextFileManager"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tracker.Explorer"
+        mc:Ignorable="d"
+        Title="Text manager" ShowInTaskbar="True"
+        MinHeight="200" MinWidth="360"
+        Height="300" Width="465"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="{DynamicResource CommonPaneBG}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36" />
+            <RowDefinition Height="2" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0">
+            <StackPanel Orientation="Horizontal">
+                <Grid Height="32" Width="32" x:Name="IMAGE_CONTAINER_WordWrap" Background="Transparent">
+                    <Image Source="../Images/VS2017/WordWrap_16x.png" x:Name="IMAGE_WordWrap" MouseDown="OnWordWrapMouseDown" ToolTip="Word wrap" />
+                </Grid>
+                <Grid Height="32" Width="32" x:Name="IMAGE_CONTAINER_DarkTheme" Background="Transparent">
+                    <Image Source="../Images/VS2017/DarkTheme_16x.png" x:Name="IMAGE_DarkTheme" MouseDown="OnDarkThemeMouseDown" ToolTip="Enable dark mode" />
+                </Grid>
+                <Grid Height="32" Width="140">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Height="24" VerticalAlignment="Center" FontSize="16" Foreground="{DynamicResource CommonPaneFG}">Language:</TextBlock>
+                        <ComboBox Width="100" Height="24" x:Name="cbxLanguage" SelectionChanged="cbxLanguage_SelectionChanged">
+                            <ComboBoxItem Content="Plain Text" FontWeight="Bold" IsSelected="True" />
+                            <ComboBoxItem Content="C#" />
+                            <ComboBoxItem Content="Java" />
+                            <ComboBoxItem Content="CSS" />
+                            <ComboBoxItem Content="Python" />
+                            <ComboBoxItem Content="JavaScript" />
+                            <ComboBoxItem Content="C++" />
+                            <ComboBoxItem Content="HTML" />
+                        </ComboBox>
+                    </StackPanel>
+                </Grid>
+                <Grid Height="32" Width="32" Background="Transparent">
+                    <Image Source="../Images/VS2017/Save_16x.png" MouseDown="OnSaveChangesAndExit" ToolTip="Save changes and close" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <avalonEdit:TextEditor
+                xmlns:avalonEdit="http://icsharpcode.net/sharpdevelop/avalonedit"
+                Name="textEditor"
+                SyntaxHighlighting="Plain Text"
+                ShowLineNumbers="True"
+                FontFamily="Consolas"
+                FontSize="12pt" />
+        </Grid>
+    </Grid>
+</Window>
